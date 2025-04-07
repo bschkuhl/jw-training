@@ -1,0 +1,83 @@
+{
+  "header": {
+    "brand": "Trung tâm Đào tạo Kỹ thuật Cơ khí & AM",
+    "nav": {
+      "home": "Trang chủ",
+      "features": "Khóa học",
+      "media": "Tài nguyên",
+      "contact": "Liên hệ"
+    }
+  },
+  "hero": {
+    "title": "Nâng cao Kỹ năng Cơ khí & Sản xuất Bồi đắp",
+    "subtitle": "Các khóa đào tạo chuyên nghiệp về kỹ thuật cơ khí hiện đại, in 3D và các quy trình sản xuất bồi đắp tiên tiến cho các chuyên gia và đội ngũ.",
+    "button1": "Xem các Khóa học",
+    "button2": "Yêu cầu Thông tin"
+  },
+  "features": {
+    "title": "Chương trình Đào tạo Nổi bật",
+    "feature1": {
+      "title": "Kỹ thuật Cơ khí Nâng cao",
+      "description": "Các khóa học chuyên sâu về thiết kế cơ khí, phân tích FEM và các công nghệ sản xuất mới nhất."
+    },
+    "feature2": {
+      "title": "Chuyên sâu về In 3D & AM",
+      "description": "Đào tạo thực hành về các công nghệ in 3D khác nhau, vật liệu và ứng dụng trong sản xuất."
+    },
+    "feature3": {
+      "title": "Workshop Tích hợp Công nghệ",
+      "description": "Tìm hiểu cách tích hợp hiệu quả sản xuất bồi đắp vào quy trình làm việc kỹ thuật hiện có của bạn."
+    }
+  },
+  "media": {
+    "title": "Tài nguyên & Dự án Học viên",
+    "image1": {
+        "title": "Dự án Học viên: Thiết kế Cơ khí Tối ưu hóa",
+        "description": "Một ví dụ về dự án học viên tập trung vào việc sử dụng các nguyên tắc kỹ thuật tiên tiến.",
+        "button": "Xem Nghiên cứu điển hình"
+    },
+    "video": {
+        "title": "Hướng dẫn In 3D: Vật liệu Nâng cao",
+        "description": "Video giới thiệu về việc sử dụng vật liệu hiệu suất cao trong các ứng dụng sản xuất bồi đắp.",
+        "button": "Xem Hướng dẫn",
+        "browserSupport": "Trình duyệt của bạn không hỗ trợ thẻ video."
+    },
+     "image2": {
+        "title": "Thiết bị Đào tạo Hiện đại",
+        "description": "Hình ảnh về các máy in 3D và thiết bị cơ khí được sử dụng trong các buổi đào tạo thực hành của chúng tôi.",
+        "button": "Khám phá Cơ sở vật chất"
+    }
+  },
+  "sidebar": {
+      "linkedinTitle": "Tin tức & Cập nhật Đào tạo",
+      "linkedinPost1Author": "Trung tâm Đào tạo Kỹ thuật",
+      "linkedinPost1Date": "5 ngày trước",
+      "linkedinPost1Text": "Đăng ký ngay cho workshop sắp tới về tối ưu hóa cấu trúc liên kết cho AM! #Đàotạo #KỹthuậtCơkhí #In3D",
+      "linkedinPost2Author": "Trung tâm Đào tạo Kỹ thuật",
+      "linkedinPost2Date": "2 tuần trước",
+      "linkedinPost2Text": "Học viên của chúng tôi đã giới thiệu các dự án ấn tượng tại hội chợ công nghệ tuần trước. #ThànhcôngHọcviên #SảnxuấtBồiđắp",
+      "calendarTitle": "Lịch Workshop & Sự kiện",
+      "calendarMonth": "Tháng hiện tại",
+      "calendarEventLegend": "Workshop/Sự kiện Đào tạo"
+  },
+  "contact": {
+    "title": "Liên hệ với Bộ phận Tuyển sinh",
+    "form": {
+      "namePlaceholder": "Tên của bạn",
+      "emailPlaceholder": "Email của bạn",
+      "subjectPlaceholder": "Chủ đề (ví dụ: Yêu cầu Khóa học)",
+      "messagePlaceholder": "Câu hỏi của bạn về các chương trình đào tạo...",
+      "submitButton": "Gửi Yêu cầu"
+    }
+  },
+  "footer": {
+      "brandTitle": "Trung tâm Đào tạo Kỹ thuật Cơ khí & AM",
+      "tagline": "Đối tác của bạn trong đào tạo chuyên nghiệp về kỹ thuật và sản xuất bồi đắp.",
+      "contactTitle": "Thông tin liên lạc",
+      "address": "123 Đường Học viện<br>Thành phố, Việt Nam",
+      "email": "daotao{'@'}kythuat-am.com.vn",
+      "phone": "+84 987 654 321",
+      "linksTitle": "Liên kết nhanh",
+      "copyright": "© {year} Trung tâm Đào tạo Kỹ thuật. Đã đăng ký Bản quyền."
+  }
+} 

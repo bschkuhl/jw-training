@@ -1,0 +1,603 @@
+:root {
+  --color-primary: #1E2A38;
+  --color-secondary: #AAB0B6;
+  --color-accent1: #00A676;
+  --color-accent2: #F26A1B;
+  --color-background: #F7F9FA;
+  --shadow-default: 0 2px 8px rgba(0,0,0,0.05);
+  --border-radius: 8px;
+  --button-radius: 6px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--color-primary);
+  background-color: var(--color-background);
+  padding-top: 70px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+img, video {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.grid {
+  display: grid;
+  gap: 30px;
+}
+
+.grid-2-1 {
+  grid-template-columns: 2fr 1fr;
+}
+
+@media (max-width: 768px) {
+  .grid-2-1 {
+    grid-template-columns: 1fr;
+  }
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  border-radius: var(--button-radius);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: var(--color-accent1);
+  color: white;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #008d63;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: var(--color-accent1);
+  border: 2px solid var(--color-accent1);
+}
+
+.btn-secondary:hover {
+  background-color: rgba(0, 166, 118, 0.1);
+}
+
+header {
+  background-color: var(--color-primary);
+  padding: 15px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo i {
+  color: var(--color-primary);
+}
+
+.logo > div:first-child {
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  border-radius: 4px;
+}
+
+.logo-text {
+  color: white;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 30px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: var(--color-accent2);
+}
+
+.hero {
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+  position: relative;
+  min-height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('/monkey3d.webp');
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(30, 42, 56, 0.7);
+  z-index: 0;
+}
+
+.hero .container {
+  position: relative;
+  z-index: 1;
+}
+
+.hero h1 {
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  max-width: 700px;
+  margin: 0 auto 30px;
+  opacity: 0.9;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.section {
+  padding: 80px 0;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.section-title h2 {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 15px;
+}
+
+.section-title h2::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 3px;
+  background-color: var(--color-accent1);
+}
+
+.features {
+  background-color: white;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.feature-card {
+  background-color: white;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-default);
+  padding: 30px;
+  transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+.feature-icon {
+  font-size: 40px;
+  color: var(--color-accent1);
+  margin-bottom: 20px;
+}
+
+.content-section {
+  color: white;
+  background-image: url('/monkey3d.webp');
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 80px 0;
+}
+
+.content-section::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(30, 42, 56, 0.8);
+  z-index: 0;
+}
+
+.content-section .container {
+  position: relative;
+  z-index: 1;
+}
+
+.content-section .section-title h2 {
+  color: white;
+}
+
+.content-section .section-title h2::after {
+  background-color: var(--color-accent1);
+}
+
+.media-card {
+  background: white;
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  box-shadow: var(--shadow-default);
+  margin-bottom: 30px;
+  color: var(--color-primary);
+}
+
+.media-image {
+  height: 240px;
+  background-size: cover;
+  background-position: center;
+}
+
+.media-video {
+  line-height: 0;
+}
+
+.media-content {
+  padding: 25px;
+}
+
+.media-content h3,
+.media-content p {
+  color: var(--color-primary);
+}
+
+.sidebar-widget {
+  background: white;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-default);
+  margin-bottom: 30px;
+  padding: 25px;
+  color: var(--color-primary);
+}
+
+.widget-title {
+  font-size: 22px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--color-secondary);
+}
+
+.linkedin-post {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.linkedin-post:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.post-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background-color: var(--color-secondary);
+  overflow: hidden;
+}
+
+.post-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.post-author {
+  font-weight: 500;
+}
+
+.post-date {
+  color: var(--color-primary);
+  opacity: 0.7;
+  font-size: 14px;
+}
+
+.calendar {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.calendar th, .calendar td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #eee;
+  font-size: 14px;
+}
+
+.calendar th {
+  background-color: var(--color-primary);
+  color: white;
+  font-weight: 500;
+}
+
+.calendar .event {
+  background-color: rgba(0, 166, 118, 0.1);
+  color: var(--color-primary);
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.contact {
+  color: white;
+  background-image: url('/monkey3d.webp');
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 80px 0;
+}
+
+.contact::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(30, 42, 56, 0.85);
+  z-index: 0;
+}
+
+.contact .container {
+  position: relative;
+  z-index: 1;
+}
+
+.contact .section-title h2 {
+  color: white;
+}
+
+.contact .section-title h2::after {
+  background-color: var(--color-accent1);
+}
+
+/* Restore Contact Form Layout */
+.contact-form {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Re-apply base styles and dark theme styles to form controls */
+.contact .form-control {
+  /* Base styles from original */
+  width: 100%;
+  padding: 12px 15px;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  border-radius: var(--border-radius);
+  transition: border-color 0.3s ease, background-color 0.3s ease; /* Added background transition */
+  
+  /* Dark theme adjustments */
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+}
+
+/* Apply dark theme placeholder styles */
+.contact .form-control::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+  opacity: 1;
+}
+
+/* Apply dark theme focus styles */
+.contact .form-control:focus {
+  outline: none;
+  border-color: var(--color-accent1);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Restore textarea specific styles */
+.contact textarea.form-control {
+    min-height: 150px;
+    resize: vertical;
+}
+
+/* Styles for button - these were likely okay but ensuring they exist */
+.contact .btn-primary {
+  /* These properties inherit or are already defined globally,
+     but explicitly stating them here for clarity if needed */
+  background-color: var(--color-accent1);
+  color: white;
+  border: none;
+}
+
+.contact .btn-primary:hover {
+  background-color: #008d63;
+}
+
+footer {
+  background-color: var(--color-primary);
+  color: white;
+  padding: 50px 0 20px;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.footer-column h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: var(--color-secondary);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: var(--color-accent2);
+}
+
+.social-links {
+  display: flex;
+  gap: 15px;
+  padding: 0;
+}
+
+.social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+  background-color: var(--color-accent1);
+}
+
+.copyright {
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  color: var(--color-secondary);
+  font-size: 14px;
+}
+
+/* Ensure specific elements within widgets also use dark text */
+.media-content h3,
+.media-content p,
+.widget-title,
+.post-author,
+.linkedin-post p,
+.calendar td,
+.sidebar-widget > p /* Legend text */ {
+    color: var(--color-primary); /* Use the primary dark color */
+}
+
+/* Style the logo image within the backdrop */
+.logo .logo-backdrop .header-logo-img {
+    display: block;
+    height: 40px; /* Sets the height */
+    min-height: 40px;
+    width: auto;   /* Automatically calculates width based on height and aspect ratio */
+}
+
+/* Add word wrapping/hyphenation to card titles */
+.feature-card h3,
+.media-content h3 {
+    overflow-wrap: break-word; /* Allow long words to break */
+    hyphens: auto; /* Enable automatic hyphenation */
+}

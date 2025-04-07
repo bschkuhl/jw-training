@@ -1,0 +1,83 @@
+{
+  "header": {
+    "brand": "Mech Eng & AM Training Center",
+    "nav": {
+      "home": "Home",
+      "features": "Courses",
+      "media": "Resources",
+      "contact": "Contact"
+    }
+  },
+  "hero": {
+    "title": "Advance Your Mechanical & Additive Mfg Skills",
+    "subtitle": "Professional training in modern mechanical engineering, 3D printing, and advanced additive manufacturing processes for professionals and teams.",
+    "button1": "View Courses",
+    "button2": "Request Info"
+  },
+  "features": {
+    "title": "Featured Training Programs",
+    "feature1": {
+      "title": "Advanced Mechanical Engineering",
+      "description": "In-depth courses on mechanical design, FEM analysis, and the latest manufacturing technologies."
+    },
+    "feature2": {
+      "title": "3D Printing & AM Specialization",
+      "description": "Hands-on training covering various 3D printing technologies, materials, and applications in production."
+    },
+    "feature3": {
+      "title": "Technology Integration Workshops",
+      "description": "Learn how to effectively integrate additive manufacturing into your existing engineering workflows."
+    }
+  },
+  "media": {
+    "title": "Resources & Student Projects",
+    "image1": {
+        "title": "Student Project: Optimized Mechanical Design",
+        "description": "An example student project focused on applying advanced engineering principles.",
+        "button": "View Case Study"
+    },
+    "video": {
+        "title": "3D Printing Tutorial: Advanced Materials",
+        "description": "A video introduction to using high-performance materials in additive manufacturing applications.",
+        "button": "Watch Tutorial",
+        "browserSupport": "Your browser does not support the video tag."
+    },
+     "image2": {
+        "title": "State-of-the-Art Training Equipment",
+        "description": "Images of the 3D printers and mechanical equipment used in our hands-on training sessions.",
+        "button": "Explore Facilities"
+    }
+  },
+  "sidebar": {
+      "linkedinTitle": "Training News & Updates",
+      "linkedinPost1Author": "Engineering Training Center",
+      "linkedinPost1Date": "5 days ago",
+      "linkedinPost1Text": "Enroll now for our upcoming workshop on topology optimization for AM! #Training #MechanicalEngineering #3DPrinting",
+      "linkedinPost2Author": "Engineering Training Center",
+      "linkedinPost2Date": "2 weeks ago",
+      "linkedinPost2Text": "Our students showcased impressive projects at last week's tech fair. #StudentSuccess #AdditiveManufacturing",
+      "calendarTitle": "Workshop & Event Calendar",
+      "calendarMonth": "Current Month",
+      "calendarEventLegend": "Training Workshop/Event"
+  },
+  "contact": {
+    "title": "Contact Admissions",
+    "form": {
+      "namePlaceholder": "Your Name",
+      "emailPlaceholder": "Your Email",
+      "subjectPlaceholder": "Subject (e.g., Course Inquiry)",
+      "messagePlaceholder": "Your questions about the training programs...",
+      "submitButton": "Send Inquiry"
+    }
+  },
+  "footer": {
+      "brandTitle": "Mech Eng & AM Training Center",
+      "tagline": "Your partner in professional engineering and additive manufacturing training.",
+      "contactTitle": "Contact Info",
+      "address": "123 Academy Street<br>City, Country",
+      "email": "training{'@'}mech-am.com",
+      "phone": "+1 (555) 123-4567",
+      "linksTitle": "Quick Links",
+      "copyright": "© {year} Engineering Training Center. All rights reserved."
+  }
+} 

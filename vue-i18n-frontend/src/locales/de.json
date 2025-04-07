@@ -1,0 +1,83 @@
+{
+  "header": {
+    "brand": "Schulungszentrum Maschinenbau & AM",
+    "nav": {
+      "home": "Home",
+      "features": "Kurse",
+      "media": "Ressourcen",
+      "contact": "Kontakt"
+    }
+  },
+  "hero": {
+    "title": "Erweitern Sie Ihre Fähigkeiten in Maschinenbau & Additiver Fertigung",
+    "subtitle": "Professionelle Schulungen in modernem Maschinenbau, 3D-Druck und fortschrittlichen additiven Fertigungsverfahren für Fachkräfte und Teams.",
+    "button1": "Kurse ansehen",
+    "button2": "Infos anfordern"
+  },
+  "features": {
+    "title": "Ausgewählte Schulungsprogramme",
+    "feature1": {
+      "title": "Fortgeschrittener Maschinenbau",
+      "description": "Vertiefende Kurse zu mechanischer Konstruktion, FEM-Analyse und neuesten Fertigungstechnologien."
+    },
+    "feature2": {
+      "title": "Spezialisierung 3D-Druck & AM",
+      "description": "Praxisorientiertes Training zu verschiedenen 3D-Druck-Technologien, Materialien und Anwendungen in der Produktion."
+    },
+    "feature3": {
+      "title": "Workshops zur Technologieintegration",
+      "description": "Lernen Sie, wie Sie die additive Fertigung effektiv in Ihre bestehenden Engineering-Workflows integrieren."
+    }
+  },
+  "media": {
+    "title": "Ressourcen & Teilnehmerprojekte",
+    "image1": {
+        "title": "Teilnehmerprojekt: Optimierte mechanische Konstruktion",
+        "description": "Ein Beispielprojekt von Teilnehmern, das sich auf die Anwendung fortgeschrittener Ingenieurprinzipien konzentriert.",
+        "button": "Fallstudie ansehen"
+    },
+    "video": {
+        "title": "3D-Druck Tutorial: Fortgeschrittene Materialien",
+        "description": "Eine Videoeinführung zur Verwendung von Hochleistungsmaterialien in additiven Fertigungsanwendungen.",
+        "button": "Tutorial ansehen",
+        "browserSupport": "Ihr Browser unterstützt das Video-Tag nicht."
+    },
+     "image2": {
+        "title": "Moderne Schulungsausrüstung",
+        "description": "Bilder der 3D-Drucker und mechanischen Ausrüstung, die in unseren praxisorientierten Schulungen verwendet werden.",
+        "button": "Ausstattung erkunden"
+    }
+  },
+   "sidebar": {
+      "linkedinTitle": "Schulungs-News & Updates",
+      "linkedinPost1Author": "Technik-Schulungszentrum",
+      "linkedinPost1Date": "Vor 5 Tagen",
+      "linkedinPost1Text": "Melden Sie sich jetzt für unseren bevorstehenden Workshop zur Topologieoptimierung für AM an! #Schulung #Maschinenbau #3DDruck",
+      "linkedinPost2Author": "Technik-Schulungszentrum",
+      "linkedinPost2Date": "Vor 2 Wochen",
+      "linkedinPost2Text": "Unsere Teilnehmer präsentierten letzte Woche beeindruckende Projekte auf der Technologiemesse. #Teilnehmererfolg #AdditiveFertigung",
+      "calendarTitle": "Workshop- & Eventkalender",
+      "calendarMonth": "Aktueller Monat",
+      "calendarEventLegend": "Schulungsworkshop/-event"
+  },
+  "contact": {
+    "title": "Kontakt zur Kursberatung",
+    "form": {
+      "namePlaceholder": "Ihr Name",
+      "emailPlaceholder": "Ihre E-Mail",
+      "subjectPlaceholder": "Betreff (z.B. Kursanfrage)",
+      "messagePlaceholder": "Ihre Fragen zu den Schulungsprogrammen...",
+      "submitButton": "Anfrage senden"
+    }
+  },
+  "footer": {
+      "brandTitle": "Schulungszentrum Maschinenbau & AM",
+      "tagline": "Ihr Partner für professionelle Weiterbildung in Maschinenbau und Additiver Fertigung.",
+      "contactTitle": "Kontaktinformationen",
+      "address": "Akademiestraße 123<br>Stadt, Land",
+      "email": "schulung{'@'}maschinenbau-am.de",
+      "phone": "+49 (0)89 12345-67",
+      "linksTitle": "Schnelllinks",
+      "copyright": "© {year} Technik-Schulungszentrum. Alle Rechte vorbehalten."
+  }
+} 
